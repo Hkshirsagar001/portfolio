@@ -130,7 +130,7 @@ I’m passionate about innovation and always eager to collaborate on projects th
                   ),
                 ),
                 const SizedBox(
-                  width: 143,
+                  width: 143,  
                 ),
                 Flexible(
                   flex: 3,
@@ -140,7 +140,7 @@ I’m passionate about innovation and always eager to collaborate on projects th
                       SizedBox(
                         width: 704,
                         child: Text(
-                          "I am always looking to add more skills.Morbi egestas neque eu blandit fermentum. Nulla ac lobortis ligula. Pellentesque ac ex at purus faucibus tristique ut et dolor. ",
+                          "I am always looking to add more skills.",
                           style: GoogleFonts.manrope(
                               fontSize: 18, color: const Color(0xffC7C7C7)),
                         ),
@@ -239,6 +239,8 @@ I’m passionate about innovation and always eager to collaborate on projects th
                           ),
                         ],
                       ),
+                      
+                      
                       const SizedBox(
                         height: 20,
                       ),
@@ -354,9 +356,13 @@ I’m passionate about innovation and always eager to collaborate on projects th
                           ),
                         ],
                       ),
+                      
+                      
+                      
                       const SizedBox(
                         height: 20,
                       ),
+                      
                       Row(
                         children: [
                           Container(

@@ -19,7 +19,7 @@ class _DLetsConnectState extends State<DLetsConnect> {
       throw 'Could not launch $url';
     }
   }
-
+  
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -97,7 +97,7 @@ class _DLetsConnectState extends State<DLetsConnect> {
                   Row(
                     children: [
                       GestureDetector(
-                        onTap: () => _launchURL("https://www.linkedin.com/in/your-linkedin-profile/"), // LinkedIn link
+                        onTap: () => _launchURL("https://www.linkedin.com/in/harsh-kshirsagar-422675207/"), // LinkedIn link
                         child: Image.asset("assets/Frame 3.png"),  
                       ),
                       const SizedBox(
@@ -208,6 +208,9 @@ class _DLetsConnectState extends State<DLetsConnect> {
                 ],
               ),
             ),
+          
+          
+          
           ],
         ),
       ),

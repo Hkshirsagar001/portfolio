@@ -9,7 +9,7 @@ class ProjectSection extends StatefulWidget {
 }
 
 class _ProjectSectionState extends State<ProjectSection> {
-  @override
+  @override    
   Widget build(BuildContext context) {
     return SingleChildScrollView(
       child: Padding(
